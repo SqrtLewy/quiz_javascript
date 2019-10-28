@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz - True or false</title>
+<link rel ="stylesheet" href ="css/style.css">
+<script src = "js/quiz.js"></script>
+
+</head>
+
+
+<body>
+
+<h1>True or false?</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">HTML is a programming language.</p>
+<input type = "radio" id = "select" name = "question1" value = "true">True<br />
+<input type = "radio" id = "select" name = "question1" value = "false">False<br />
+
+<p class = "questions">The current PHP version is 7.1.33</p>
+<input type = "radio" id = "select" name = "question2" value = "true">True<br />
+<input type = "radio" id = "select" name = "question2" value = "false">False<br />
+
+<br />
+
+
+<input id = "button" type = "button" value = "See results!" onclick = "complete();">
+
+
+</form>
+
+<div id = "seeresults">
+<p id = "score"></p>
+<p id = "message"></p>
+</div>
+
+</body>
+
+</html>
